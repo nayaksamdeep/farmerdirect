@@ -1,2 +1,2 @@
 # farmerdirect
-Connect Farmers to Homes
+Connect Farmers to Consumers Directly
