@@ -69,16 +69,22 @@ Register either the Non Profit or Employer
 
 2. Login/Logout/Update Profile/Delete Profile/Refresh Token
 
+2.1 Login
+
 https://api.needify.com/v1/employer/login
+
 https://api.needify.com/v1/ngo/login
 
 Login will result in JWT being issued as the response
 
 The token will be used for future secure encrypted communication (Potentially Phase-2 of iteration)
 
+2.2 Logout
+
 https://api.needify.com/v1/employer/:id/logout
+
 https://api.needify.com/v1/ngo/:id/logout
 
 Logout redirects to the home page
 
-
+# NGO Microservice
