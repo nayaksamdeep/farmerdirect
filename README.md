@@ -65,9 +65,7 @@ Register either the Non Profit or Employer
 - Cause
 - Govt ID Number
 - Website Link
-- xml profile
-- Image Link
-- Video Link
+
 
 1.3.2 Employer
 
@@ -78,7 +76,7 @@ Register either the Non Profit or Employer
 - Govt ID Number
 - Total Number of Employees
 - SSO Details (Future Use)
-- Website
+- Website Link
 
 2. Login/Logout/Update Details/Delete/Refresh Token
 
@@ -119,9 +117,10 @@ The NGO service allows the NGO to create externally visble profile with images a
 1. Profile
 
 1.1 Profile
-The NGO can create a profile describing their work. The profile information is stored as xml doc in postgress db
+The NGO can create a profile describing their work. 
 
 https://api.needify.com/v1/ngo/:id/createprofile
+
 
 1.2 File Uploads
 
@@ -130,9 +129,22 @@ An NGO can upload an image and a video that would be stored in S2 bucket with a 
 https://api.needify.com/v1/ngo/:id/uploadimage
 https://api.needify.com/v1/ngo/:id/uploadvideo
 
+1.3 Table
+
+Table Details - Non Profit Description. The profile information is stored as xml doc in Dynamo DB
+
+Login Name (PK)
+Description (Doc XML)
+Image Link
+Video Link
+
 2. Events
 
-The NGO can create events. The 
+The NGO can create and delete events. The 
 
-https://api.needify.com/v1/employer/:id/createevent
-https://api.needify.com/v1/employer/:id/createevent
+https://api.needify.com/v1/ngo/:id/event
+https://api.needify.com/v1/ngo/:id/event/:id/delete
+
+
+
+
