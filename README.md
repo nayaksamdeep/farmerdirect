@@ -23,6 +23,8 @@ https://levelup.gitconnected.com/building-a-todo-api-in-golang-with-kubernetes-1
 
 # Version 1 Alpha API
 
+# User Management Micro Service
+
 1. Registration
 
 https://api.needify.com/v1/employer/register
@@ -65,7 +67,14 @@ Register either the Non Profit or Employer
 - Total Number of Employees
 - SSO Details (Future Use)
 
-2. Login/Logout/Update Profile
+2. Login/Logout/Update Profile/Refresh Token
+
+https://api.needify.com/v1/employer/login
+
+https://api.needify.com/v1/ngo/login
+
+Login will result in JWT being issued as the response
+The token will be used for future secure encrypted communication (Potentially Phase-2)
 
 
 
