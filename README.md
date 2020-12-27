@@ -135,10 +135,10 @@ https://api.needify.com/v1/ngo/:id/uploadvideo
 
 Table Details - Non Profit Description. The profile information is stored as xml doc in Dynamo DB
 
-Login Name (PK)
-Description (Doc XML)
-Image Link
-Video Link
+- Login Name (PK)
+- Description (Doc XML)
+- Image Link
+- Video Link
 
 2. Events
 
@@ -148,6 +148,10 @@ https://api.needify.com/v1/ngo/:id/event
 
 https://api.needify.com/v1/ngo/:id/event/:id/delete
 
+Event Table
 
-
+- Event ID (PK)
+- Description (Doc XML)
+- Image Link
+- Video Link
 
