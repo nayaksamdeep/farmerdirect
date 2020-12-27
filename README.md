@@ -122,11 +122,13 @@ The NGO can create a profile describing their work.
 https://api.needify.com/v1/ngo/:id/createprofile
 
 
+
 1.2 File Uploads
 
 An NGO can upload an image and a video that would be stored in S2 bucket with a unique link
 
 https://api.needify.com/v1/ngo/:id/uploadimage
+
 https://api.needify.com/v1/ngo/:id/uploadvideo
 
 1.3 Table
@@ -143,6 +145,7 @@ Video Link
 The NGO can create and delete events. The 
 
 https://api.needify.com/v1/ngo/:id/event
+
 https://api.needify.com/v1/ngo/:id/event/:id/delete
 
 
