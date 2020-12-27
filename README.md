@@ -67,14 +67,18 @@ Register either the Non Profit or Employer
 - Total Number of Employees
 - SSO Details (Future Use)
 
-2. Login/Logout/Update Profile/Refresh Token
+2. Login/Logout/Update Profile/Delete Profile/Refresh Token
 
 https://api.needify.com/v1/employer/login
-
 https://api.needify.com/v1/ngo/login
 
 Login will result in JWT being issued as the response
-The token will be used for future secure encrypted communication (Potentially Phase-2)
 
+The token will be used for future secure encrypted communication (Potentially Phase-2 of iteration)
+
+https://api.needify.com/v1/employer/:id/logout
+https://api.needify.com/v1/ngo/:id/logout
+
+Logout redirects to the home page
 
 
