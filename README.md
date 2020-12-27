@@ -21,5 +21,50 @@ https://levelup.gitconnected.com/building-a-todo-api-in-golang-with-kubernetes-1
 
 
 
-Version 1 Alpha API
+# Version 1 Alpha API
+
+1. Registration
+
+https://api.needify.com/v1/employer/register
+
+https://api.needify.com/v1/ngo/register
+
+Register either the Non Profit or Employer
+
+1.1 Key Details entered by the Non Profit include
+
+- Login Details (User Name, Password)
+- Contact Details
+- Cause (i.e. Childern, Oldage, Healthcare, Volunteer)
+- Govt Approved ID Number
+
+1.2 Key Details entered by the Employer
+
+- Login Details (User Name, Password)
+- Contact Details
+- Govt issued ID Number
+- No of Employees
+
+
+1.3 Tables Created
+
+1.3.1 Non Profit
+
+Login Name (PK)
+Password
+Contact
+Cause
+Govt ID Number
+
+1.3.2 Employer
+Login Name (PK)
+Password
+Contact
+Govt ID Number
+Total Number of Employees
+SSO Details (Future Use)
+
+2. Login/Logout/Update
+
+
 
