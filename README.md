@@ -50,21 +50,22 @@ Register either the Non Profit or Employer
 
 1.3.1 Non Profit
 
-Login Name (PK)
-Password
-Contact
-Cause
-Govt ID Number
+- Login Name (PK)
+- Password
+- Contact
+- Cause
+- Govt ID Number
 
 1.3.2 Employer
-Login Name (PK)
-Password
-Contact
-Govt ID Number
-Total Number of Employees
-SSO Details (Future Use)
 
-2. Login/Logout/Update
+- Login Name (PK)
+- Password
+- Contact
+- Govt ID Number
+- Total Number of Employees
+- SSO Details (Future Use)
+
+2. Login/Logout/Update Profile
 
 
 
